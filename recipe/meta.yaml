@@ -1,5 +1,5 @@
 {% set name = "types-toml" %}
-{% set version = "0.10.4" %}
+{% set version = "0.10.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-toml-{{ version }}.tar.gz
-  sha256: 9340e7c1587715581bb13905b3af30b79fe68afaccfca377665d5e63b694129a
+  sha256: f949463a388200be392ef9399dbad3e1e3bbe6d4543d84ad93d96c3fda028080
 
 build:
   number: 0
