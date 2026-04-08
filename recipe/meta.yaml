@@ -1,4 +1,4 @@
-{% set version = "0.10.8.20240310" %}
+{% set version = "0.10.8.20260408" %}
 
 
 package:
@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/t/types-toml/types-toml-{{ version }}.tar.gz
-  sha256: 3d41501302972436a6b8b239c850b26689657e25281b48ff0ec06345b8830331
+  url: https://pypi.org/packages/source/t/types-toml/types_toml-{{ version }}.tar.gz
+  sha256: 6b30b031235565a12febb1388900b129f1adeabfcfa594da46d0372b2ac107ad
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation --disable-pip-version-check
